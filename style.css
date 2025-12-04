@@ -5,3 +5,27 @@ img {
 body {
     height: 1000px;
 }
+
+/* ABSOLUTE positioning is like setting x,y coordinates
+   The element is pulled OUT of the pages NORMAL FLOW
+   Then we set the DISTANCE from two sides (top & left)
+ */
+#absolute {
+    position: absolute;
+    top: 250px;
+    left: 275px;
+}
+/* FIXED positioning keeps the element in the same place even when you scroll down
+*/
+#fixed {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+/* STICKY positioning is like fixed, but it only "sticks" there when you scroll to it
+ */
+#sticky {
+    position: sticky;
+    top: 10px;
+    left: 30px;
+}
