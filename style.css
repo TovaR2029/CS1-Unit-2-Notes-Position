@@ -12,8 +12,9 @@ body {
  */
 #absolute {
     position: absolute;
-    top: 250px;
-    left: 275px;
+    top: 550px;
+    left: 500px;
+    z-index: 10;
 }
 /* FIXED positioning keeps the element in the same place even when you scroll down
 */
@@ -28,4 +29,15 @@ body {
     position: sticky;
     top: 10px;
     left: 30px;
+}
+#container {
+    background: pink;
+    display:inline-block;
+}
+/* RELATIVE positioning lets you "nudge" an element from its normal position on the page (moves it relative to its static spot)
+ */
+#relative {
+    position: relative;
+    top: -20px;
+    left: 20px;
 }
